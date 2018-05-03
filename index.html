@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Word Guess</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="javascripts/utilities.js"></script>
+  </head>
+
+  <body>
+
+    <div class="game-over">Sorry, I've run out of words!</div>
+
+    <div class="column">
+
+      <section class="upper-panel">
+
+        <a class="start-new-game" href="#">Start New Round</a>
+
+        <img id="tree" src="images/tree.png" alt="Tree">
+
+        <img id="apple-1" src="images/apple.png" alt="Apple">
+        <img id="apple-2" src="images/apple.png" alt="Apple">
+        <img id="apple-3" src="images/apple.png" alt="Apple">
+        <img id="apple-4" src="images/apple.png" alt="Apple">
+        <img id="apple-5" src="images/apple.png" alt="Apple">
+
+      </section>
+
+      <section class="lower-panel-left">
+
+        <h1>Word</h1><!--
+
+        --><div class="word"></div>
+
+      </section>
+
+      <section class="lower-panel-right">
+
+        <h1>Guesses</h1><!--
+
+        --><div class="guesses">
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+          <p class="letter"></p>
+        </div>
+
+      </section>
+
+    </div>
+
+    <script src="javascripts/script.js"></script>
+
+  </body>
+
+</html>
